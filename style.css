@@ -26,11 +26,11 @@ h1 {
 
 .seccion-oscura {
   color: #FCFFE7;
-  background-color: #00005C;
+  background-color: #2B3467;
 }
 
 .seccion-clara {
-  color: #00005C;
+  color: #2B3467;
   background-color: #FCFFE7;
 }
 
@@ -42,7 +42,7 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #00005C;
+  color: #2B3467;
 }
 
 .seccion-texto {
@@ -52,12 +52,18 @@ h1 {
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
-  background-color: #C060A1;
+  background-color: #EB455F;
   color: #FCFFE7;  
 }
 
+.btn-info:hover{
+  background-color: #2B3467;
+  color: #FCFFE7;
+  
+}
+
 .texto-negro {
-  color: #C060A1;
+  color: #EB455F;
 }
 
 .texto-blanco {
@@ -80,11 +86,14 @@ h1 {
   width: 200px;
   height: 200px;
   margin: 20px;
+  border-style:double;
+  border-width: 5px;
+  border-color: #EB455F;
 }
 
 .hero-principal h1 {
   font-size: 3rem;
-  color: #00005C;
+  color: #2B3467;
 }
 
 /* Sobre mi */
@@ -100,7 +109,7 @@ h1 {
 }
 
 .text-primary span{
-  color: #C060A1;
+  color: #EB455F;
 }
 
 /* Experiencia */
@@ -111,7 +120,7 @@ h1 {
 
 .experiencia .columna {
   padding: 20px;
-  border: 2px solid #00005C;
+  border: 2px solid #2B3467;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,14 +129,14 @@ h1 {
 }
 
 .experiencia .columna:hover {
-  color: white;
-  background-color: #00005C;
+  color: #FCFFE7;
+  background-color: #2B3467;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #C060A1;
-  background-color: #00005C;
+  color: #EB455F;
+  background-color: #2B3467;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -146,6 +155,11 @@ h1 {
 
 .badge {
   margin: 5px;
+}
+
+.text-bg-primary {
+  background-color: #EB455F;
+  color: #FCFFE7;
 }
 
 /* Proyectos */
@@ -201,7 +215,7 @@ h1 {
 }
 
 .overlay i {
-  color: #00005C;
+  color: #2B3467;
   font-size: 60px;
   margin: 10px;
 }
@@ -222,6 +236,8 @@ h1 {
 
 .articulos .card-header {
   font-weight: bold;
+  background-color:#2B3467;
+  color: #FCFFE7;
 }
 
 /* Testimonios */
@@ -275,7 +291,7 @@ h1 {
 
 .testimonio-info .cargo {
   font-size: 0.9rem;
-  color: #C060A1;
+  color: #EB455F;
 }
 
 /* Contacto */
@@ -288,7 +304,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #C060A1;
+  background-color: #EB455F;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px #FCFFE7;
 }
@@ -317,7 +333,7 @@ h1 {
 
 .contacto button:hover {
   background-color: #FCFFE7;
-  color: #00005C;
+  color: #2B3467;
 }
 
 .contacto button i {
@@ -327,7 +343,7 @@ h1 {
 }
 
 .contacto button:hover i {
-  color: #00005C;
+  color: #2B3467;
 }
 
 /* Pie de pagina (footer) */
@@ -370,11 +386,11 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: #FCFFE7;
-  border: 2px solid #C060A1;
+  border: 2px solid #EB455F;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: #00005C;
+  color: #2B3467;
 }
 
 .derechos-de-autor {
